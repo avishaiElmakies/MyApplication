@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flag_circle"
+            android:id="@+id/flagId"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/flagId"
+            android:background="@drawable/text_background"
+            android:text="this is a place holder for the name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
